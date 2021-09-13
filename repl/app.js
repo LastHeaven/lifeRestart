@@ -2,7 +2,7 @@ import { summary } from '../src/functions/summary.js'
 import { readFile } from 'fs/promises';
 import Life from '../src/life.js';
 
-globalThis.json = async fileName => JSON.parse(await readFile(`data/${fileName}.json`));
+globalThis.json = async fileName => JSON.parse(await readFile(`https://cdn.jsdelivr.net/gh/LastHeaven/lifeRestart/data/${fileName}.json`));
 
 globalThis.$$eventMap = new Map();
 globalThis.$$event = (tag, data) => {

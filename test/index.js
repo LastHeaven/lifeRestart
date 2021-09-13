@@ -1,7 +1,7 @@
 import { readFile } from 'fs/promises';
 import Life from '../src/life.js'
 
-globalThis.json = async fileName => JSON.parse(await readFile(`data/${fileName}.json`));
+globalThis.json = async fileName => JSON.parse(await readFile(`https://cdn.jsdelivr.net/gh/LastHeaven/lifeRestart/data/${fileName}.json`));
 
 globalThis.localStorage = {};
 localStorage.getItem = key => localStorage[key]===void 0? null: localStorage[key];
