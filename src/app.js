@@ -287,10 +287,10 @@ class App{
             return {group, get, set};
         }
 
-        groups.CHR = getBtnGroups("颜值", 0, 10); // 颜值 charm CHR
-        groups.INT = getBtnGroups("智力", 0, 10); // 智力 intelligence INT
-        groups.STR = getBtnGroups("体质", 0, 10); // 体质 strength STR
-        groups.MNY = getBtnGroups("家境", 0, 10); // 家境 money MNY
+        groups.CHR = getBtnGroups("颜值", 0, 30); // 颜值 charm CHR
+        groups.INT = getBtnGroups("智力", 0, 30); // 智力 intelligence INT
+        groups.STR = getBtnGroups("体质", 0, 30); // 体质 strength STR
+        groups.MNY = getBtnGroups("家境", 0, 30); // 家境 money MNY
 
         const ul = propertyPage.find('#propertyAllocation');
 

@@ -294,12 +294,15 @@ ul#total li .achievementtitle,
   color: #EEEEEE;
 }
 
+#talentSelectedView {
+  max-height: 150px;
+}
+
 .propinitial,
 .selectlist {
   list-style: none;
   flex: 1;
   padding: 1rem;
-  max-height: 150px;
   overflow: auto;
 }
 
