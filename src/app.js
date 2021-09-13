@@ -752,9 +752,9 @@ class App{
         const themeLink = $(document).find('#themeLink');
 
         if(theme == 'light') {
-            themeLink.attr('href', 'light.css');
+            themeLink.attr('href', 'https://cdn.jsdelivr.net/gh/LastHeaven/lifeRestart/view/light.css');
         } else {
-            themeLink.attr('href', 'dark.css');
+            themeLink.attr('href', 'https://cdn.jsdelivr.net/gh/LastHeaven/lifeRestart/view/dark.css');
         }
     }
 
